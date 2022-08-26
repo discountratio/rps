@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="rps-container">
+        
+        <div class="scores flex">
+            <div class="score-nums flex">
+                <div class="flex snum">User<span id="user-score">0</span></div>
+                <div class="flex snum">CPU <span id="cpu-score">0</span></div>
+            </div>
+            <div id="status">waiting...</div>
+        </div>
+
+
+        <div class="rps">
+            <div class="rock icon-rock btn" value='rockvalue'><i class="fa fa-hand-rock-o"></i></div>
+            <div class="paper icon-paper btn" value="papervalue"><i class="fa fa-hand-paper-o"></i></div>
+            <div class=" scissors icon-scissors btn" value="scissorvalue"><i class="fa fa-hand-scissors-o"></i></div>
+        </div>
+
+        <div class="large">
+            <div id="user-large">:(</div>
+            <div id="cpu-large"> :(</div>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
